@@ -1,3 +1,20 @@
+##Additons to the original repo
+
+The following R files will create their corresponding png files as detailed below in the original repo.
+
+<ol>
+<li><b>plot1.R</b>: Will create <b>plot1.png</b></li>
+<li><b>plot2.R</b>: Will create <b>plot2.png</b></li>
+<li><b>plot3.R</b>: Will create <b>plot3.png</b></li>
+<li><b>plot4.R</b>: Will create <b>plot4.png</b></li>
+</ol>
+
+It is assumed that the data file household_power_consumption.txt is relative to all the scripts.
+Each plot function accepts a TRUE/FALSE argument.
+Passing TRUE will cause the function to read the original household_power_consumption.txt file and store the data in a RDS file. It is only necessary when running the function the first time. Subsequent runs passing FALSE will allow all functions to run much faster.
+
+## Orignal Repo items below
+
 ## Introduction
 
 This assignment uses data from
