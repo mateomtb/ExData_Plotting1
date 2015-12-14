@@ -9,7 +9,7 @@ The following R files will create their corresponding png files as detailed belo
 <li><b>plot4.R</b>: Will create <b>plot4.png</b></li>
 </ol>
 
-It is assumed that the data file household_power_consumption.txt is relative to all the scripts.
+It is assumed that the data file household_power_consumption.txt is relative and in the working directory to all the scripts. It must be downloaded from the source referenced below in the original instructions.
 Each plot function accepts a TRUE/FALSE argument.
 Passing TRUE will cause the function to read the original household_power_consumption.txt file and store the data in a RDS file. It is only necessary when running the function the first time. Subsequent runs passing FALSE will allow all functions to run much faster.
 
